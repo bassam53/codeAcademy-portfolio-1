@@ -1,0 +1,351 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    perspective: 657px;
+}
+.background-photo{
+    width: 100%;  /* 1280 */
+    height: 100%; /* 657 */
+    position: absolute; 
+}
+.key-list{
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 100px 100px,#00fefe, #0859b2);
+  margin: 70px 0 0 30px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 30px;
+  opacity: 0.5;
+  
+}
+.key-list a{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 10px 10px 10px 15px;
+  opacity: 1;
+}
+#list{
+  width: 100px;
+  height: 0px;
+  background: radial-gradient(circle at 100px 100px,#00fefe, #0859b2);
+  margin: 190px 0 0 30px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 30px;
+  opacity: 0.5;
+  transition: height 1s ease-in-out;
+  transform-style: preserve-3d;
+  overflow: hidden;
+  border: 3px solid #fff;
+}
+#list ul li {
+  width: 80px;
+  height: auto;
+  text-align: center;
+  margin: 11.25px 10px ;
+  border: 2px groove #b5cde8;
+  border-radius: 30px;
+  list-style-type: none;
+  display: block;
+}
+#list ul li a{
+  text-decoration: none;
+}
+#container{
+    width: 87.6%;
+    height: 97.4%;
+    position: absolute;
+    margin: 0.68% 6.19%;
+    transform: scale(0.83);
+    
+}
+#base{
+    width: 0.78%;
+    height: 1.52%;
+    position: relative;
+    border-radius: 50%;
+    margin: 28.1% auto;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+    transform: translateX(0px) rotateX(-5deg) rotateY(0deg) rotateZ(0deg) scale(1);
+    
+}
+.box{
+    width: 390px; 
+    height: 470px; /* 1.2464788732394366 */
+    background: #0859b29c;
+    position: absolute;
+    border: 3px solid #b5cde8;
+    border-radius: 40px;
+    color: #00fefe;
+    margin: -230px -190px;
+}
+#who-i-am{
+    transform: translateZ(500px) rotateY(0deg);
+}
+.myPhoto{
+  width: 90px;
+  height: 95px;
+  margin: 30px;
+  border-radius: 18px;
+  opacity: 0.75;
+  
+}
+.myTitle{
+  width: 190px;
+  height: 131px;
+  display: inline-block;
+  margin: 8px 15px;
+  position: relative;
+  
+}
+.myName{
+  position: absolute;
+  width: 130px;
+  height: 71px;
+  margin: 30px 30px;
+  text-align: center;
+  font-family: inherit;
+  display: block;
+}
+.myProfile{
+  width: 315px;
+  height: 235px;
+  margin: 30px;
+}
+.myWords{
+  
+}
+
+#about-me{
+    transform: translateX(378px) translateZ(374px) rotateY(45deg);
+}
+.MyInformation{
+  width: 300px;
+  height: 280px;
+  margin: 30px;
+}
+.MySocial{
+  width: 300px;
+  height: 70px;
+  margin: 0px auto;
+}
+.social {
+    width: 100%;
+    display: flex;
+    padding: 15px 0px;
+    list-style-type: none;
+    margin: 40px 0px;
+}
+.about{
+  text-align: center;
+  padding: 15px;
+}
+.MyInformation ul li{
+  list-style-type: none;
+  margin: 30px 0px;
+}
+.question {
+    font-size: 12px;
+    margin: 0px;
+    float: left;
+    width: 200px;
+}
+.answer {
+    color: #d69545;
+    font-size: 15px;
+}
+.facebook, .githup, .freecodecamp, .freecodewars {
+    background: #bf914f;
+    color: #000;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 8px;
+    opacity: 0.5;
+}
+li[title="facebook"], li[title="githup"], li[title="freecodecamp"], li[title="freecodewars"] {
+    margin: 0px 10px;
+}
+.freecodecamp:hover{
+  background: #006400;
+}
+.githup:hover{
+  background: #dbedff;
+}
+.freecodewars:hover{
+  background: #ae2e22;
+}
+.facebook:hover{
+  background: #4267b2;
+}
+#what-i-do{
+    transform: translateX(519px) rotateY(90deg);
+}
+.MyProject{
+  width: 300px;
+  height: 410px;
+  margin: 30px 45px;
+}
+.MyProject h2{
+  text-align: center;
+  padding: 20px;
+}
+.MyProject img{
+  width: 250px;
+  height: 250px;
+  margin: 15px 25px;
+  border-radius: 20%;
+  border: 1px solid #bf914f;
+  opacity: 0.90;
+}
+#what-i-like{
+    transform: translateX(379px) translateZ(-381px) rotateY(135deg);
+}
+.myFavorite{
+  width: 300px;
+  height: 410px;
+  margin: 30px 45px;
+}
+.myFavorite ul{
+  list-style-type: decimal;
+  
+}
+.myFavorite ul li{
+  margin:40px 0px;
+}
+.myFavorite h2{
+  text-align: center;
+  padding: 15px;
+}
+.myFavorite img{
+  width: 150px;
+  height: 100px;
+  margin: 0px  75px ; 
+  
+}
+#what-i-hate{
+    transform: translateZ(-514px) rotateY(-180deg);
+}
+.myWorst{
+  width: 300px;
+  height: 410px;
+  margin: 30px 45px;
+}
+.myWorst ul{
+  list-style-type: decimal;
+  
+}
+.myWorst ul li{
+  margin:40px 0px;
+}
+.myWorst h2{
+  text-align: center;
+  padding: 15px;
+}
+.myWorst img{
+  width: 150px;
+  height: 100px;
+  margin: 0px  75px ; 
+  
+}
+#love-to-be{
+    transform: translateX(-375px) translateZ(-385px) rotateY(-135deg);
+}
+.myFuture{
+  width: 300px;
+  height: 410px;
+  margin: 30px 45px;
+}
+.myFuture h2{
+  text-align: center;
+  padding: 15px;
+}
+.myFuture p{
+  width: 250px;
+  height: auto;
+  margin: 0px 0px 30px 0px;
+}
+.myFuture span{
+  color: #d69545;
+  top: 20px;
+}
+.myFuture img{
+  width: 150px;
+  height: 100px;
+  margin: 0px 75px;
+}
+#hate-to-be{
+    transform: translateX(-509px) rotateY(-90deg);
+    
+}
+.myPast{
+  width: 300px;
+  height: 410px;
+  margin: 30px 45px;
+}
+.myPast h2{
+  text-align: center;
+  padding: 15px;
+}
+.myPast p{
+  width: 250px;
+  height: auto;
+  margin: 0px 0px 30px 0px;
+}
+.myPast span{
+  color: #d69545;
+  top: 20px;
+}
+.myPast img{
+  width: 150px;
+  height: 100px;
+  margin: 0px 75px;
+  border-radius: 20px 20px 0px 0px;
+}
+#leave-a-message{
+    transform: translateX(-375px) translateZ(375px) rotateY(-45deg);
+    
+}
+.titleDetails{
+  width: 300px;
+  height: 100px;
+  margin: 30px;
+}
+.titleDetails h1, .titleDetails h4{
+  text-align: center;
+  padding: 7.5px;
+}
+.boxOfMessage{
+  width: 300px;
+  height: 250px;
+  margin: -40px 30px;
+}
+.boxOfMessage input{
+  width: 200px;
+  border: 1px solid #d69545;
+  border-radius: 10%;
+  margin: 10px 50px;  
+}
+textarea{
+  width: 280px;
+  height: 150px;
+  margin: auto 10px;
+}
+.send{
+  width: 60px;
+  border: 1px solid #d69545;
+  border-radius: 20%;
+  padding: 10px;
+  margin: 15px 130px;
+}
+.send a{
+  color: #110;
+  text-decoration: none;
+}
