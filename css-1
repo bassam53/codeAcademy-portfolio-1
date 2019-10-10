@@ -1,0 +1,162 @@
+<html>
+    <head>
+        <title>myCode</title>
+        <meta charset='utf-8'>
+    </head>
+    <link href='style.css' rel='stylesheet'>
+    <body>
+        <div class="key-list" onclick='openKey();' ondblclick='closeKey();'>
+            <a href="#">
+                <img src="list.png">
+            </a> 
+        </div>
+        <div id="list">
+            <ul>
+                <li><a href="#" onclick="whoIAm();">who i am</a></li>
+                <li><a href="#" onclick="aboutMe();">about me</a></li>
+                <li><a href="#" onclick="whatIDo();">what i do</a></li>
+                <li><a href="#" onclick="whatILike();">what i like</a></li>
+                <li><a href="#" onclick="whatIHate();">what i hate</a></li>
+                <li><a href="#" onclick="loveToBe();">love to be</a></li>
+                <li><a href="#" onclick="hateToBe();">hate to be</a></li>
+                <li><a href="#" onclick="leaveAMessage();">leave a message</a></li>
+            </ul>
+        </div>
+        <img class='background-photo' src='photo.jpg'>
+        <div id='container'>
+            <div id='base'>
+                <div class='box' id='who-i-am'>
+                <img src='myPhoto.jpg' class='myPhoto'>
+                <div class='myTitle'>
+                    <h2 class="myName">Bassam abdelNaby</h2>
+                </div>
+                <div class='myProfile'>
+                    <h4 class='myWorlds'>Regiment of silent feelings and hidden spirit of hesitant hearts
+                                 They always revolve around our bodies but we do not care about
+                                 them Inspired by these beautiful arches in their charming colors
+                                 They don't know it was almost dark If not flashed by lines Passing
+                                 its wide diaspora Made them a string Mysterious love fantasy It
+                                 ventilates with every vacant eye.</h4>
+                </div>
+            </div>
+            
+            <div class='box' id='about-me'>
+                <div class='MyInformation'>
+                    <h2 class='about'>About Me</h2>
+                    <ul>
+                        <li>
+                            <div class='question'>MY AGE:</div><span class='answer'>22</span>
+                        </li>
+                        <li>
+                            <div class='question'>MY ADDRESS:</div><span class='answer'>Palestine/Gaza</span>
+                        </li>
+                        <li>
+                            <div class='question'>MY PHON:</div><span class='answer'>0567444501</span>
+                        </li>
+                        <li>
+                            <div class='question'>MY EMAIL:</div><span class='answer'>bassam.5353@h</span>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <div class="MySocial">
+                    <ul class='social'>
+                        <li title='freecodecamp'>
+                            <a href='https://www.freecodecamp.org/fcc95fd0d5e-e542-4ac0-b87c-9cd8ecffaeea'>
+                                <img class='freecodecamp' src='freecodecamp.svg'>
+                            </a>
+                        </li>
+                        <li title='githup'>
+                            <a href='https://github.com/bassam53'>
+                                <img class='githup' src='githup.svg'>
+                            </a>
+                        </li>
+                        <li title='freecodewars'>
+                            <a href='https://www.codewars.com/users/bassam53'>
+                                <img class='freecodewars' src='freecodewars.svg'>
+                            </a>
+                        </li>
+                        <li title='facebook'>
+                            <a href='https://www.facebook.com/profile.php?id=100002770575328'>
+                                <img class='facebook' src='facebook.svg'>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box" id="what-i-do">
+                <div class="myproject">
+                    <h2>My Project</h2>
+                    <a href='https://bassam53.github.io/codeAcademy-portfolio/'><img src='photoMyProject.jpg'></a>
+                </div>    
+            </div>
+            
+            <div class="box" id="what-i-like">
+                <div class="myFavorite">
+                    <h2>What I Like</h2>
+                    <ul>
+                        <li>Music</li>
+                        <li>Poetry</li>
+                        <li>Reality</li>
+                    </ul>
+                    <img src='music.png'>
+                </div>
+            </div>
+        
+            <div class="box" id="what-i-hate">
+                <div class="myWorst">
+                    <h2>What I Hate</h2>
+                    <ul>
+                        <li>Noise</li>
+                        <li>Heat</li>
+                        <li>Change</li>
+                    </ul>
+                    <img src='change.png'>
+                </div>
+            </div>
+            
+            <div class="box" id="love-to-be">
+                <div class="myFuture">
+                    <h2>My Future</h2>
+                    <div class='building'>
+                        <p>
+                            <span>when i talk about the future in reality i talk with my self if i well have misstake in my time wich i live.
+                            </span>
+                        </p>
+                        <p>sometimes putting plans makes things uncomfortable because you need think about everything but when you see
+                            yourself in future you put a picture in your mind it's become a question.<span>'what i did forget'</span>
+                        </p>
+                        <img src='forget.jpg'>
+                    </div>
+                </div>
+            </div>
+            <div class="box" id="hate-to-be">
+                <div class="myPast">
+                    <h2>My Past</h2>
+                    <div class='destroy'>
+                        <p>
+                            <span>The past is like a wall where i put notes of events.</span>
+                        </p>
+                        <p>
+                            Notes That's it
+                            Everyone has a wall, but who knows it exists when you notice it become a place
+                            <span>'You can live it'</span>
+                        </p>
+                        <img src='place.jpg'>
+                    </div>
+                </div>
+            </div>    
+            <div class="box" id="leave-a-message">
+                <div class="titleDetails"><h1>Leave a message</h1><h4>Be In Touch</h4></div>
+                <div class="boxOfMessage">
+                    <input placeholder='Name'>
+                    <input placeholder='Email'>
+                    <textarea placeholder="message"></textarea>
+                    <button type='submit' class='send'><a href='#'>Send</a></button>
+                </div> 
+            </div>
+            </div>
+        </div>
+        <script src='javascript.js'></script>
+    </body>
+</html>
