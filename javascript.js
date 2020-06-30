@@ -1,5 +1,5 @@
 function openKey(){
-    document.getElementById('list').style.height = "280";
+    document.getElementById('list').style.height = "300";
 }
 console.log(openKey);
 function closeKey(){
